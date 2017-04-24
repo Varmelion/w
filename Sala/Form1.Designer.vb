@@ -468,7 +468,8 @@ Partial Class Form1
         'Button39
         '
         Me.Button39.Cursor = System.Windows.Forms.Cursors.WaitCursor
-        Me.Button39.Location = New System.Drawing.Point(142, 0)
+        Me.Button39.Enabled = False
+        Me.Button39.Location = New System.Drawing.Point(141, -1)
         Me.Button39.Name = "Button39"
         Me.Button39.Size = New System.Drawing.Size(719, 23)
         Me.Button39.TabIndex = 45
