@@ -28,7 +28,6 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -65,6 +64,9 @@ Partial Class Form1
         Me.Button34 = New System.Windows.Forms.Button()
         Me.Button35 = New System.Windows.Forms.Button()
         Me.Button36 = New System.Windows.Forms.Button()
+        Me.Button37 = New System.Windows.Forms.Button()
+        Me.Button38 = New System.Windows.Forms.Button()
+        Me.Button39 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -120,15 +122,6 @@ Partial Class Form1
         Me.Label6.Size = New System.Drawing.Size(16, 17)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "F"
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Panel1.Font = New System.Drawing.Font("Microsoft YaHei", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Panel1.Location = New System.Drawing.Point(143, 12)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(738, 22)
-        Me.Panel1.TabIndex = 6
         '
         'Button1
         '
@@ -454,11 +447,42 @@ Partial Class Form1
         Me.Button36.Text = "F6"
         Me.Button36.UseVisualStyleBackColor = True
         '
+        'Button37
+        '
+        Me.Button37.Location = New System.Drawing.Point(316, 368)
+        Me.Button37.Name = "Button37"
+        Me.Button37.Size = New System.Drawing.Size(163, 33)
+        Me.Button37.TabIndex = 43
+        Me.Button37.Text = "Back"
+        Me.Button37.UseVisualStyleBackColor = True
+        '
+        'Button38
+        '
+        Me.Button38.Location = New System.Drawing.Point(558, 368)
+        Me.Button38.Name = "Button38"
+        Me.Button38.Size = New System.Drawing.Size(163, 33)
+        Me.Button38.TabIndex = 44
+        Me.Button38.Text = "Dalej"
+        Me.Button38.UseVisualStyleBackColor = True
+        '
+        'Button39
+        '
+        Me.Button39.Cursor = System.Windows.Forms.Cursors.WaitCursor
+        Me.Button39.Location = New System.Drawing.Point(142, 0)
+        Me.Button39.Name = "Button39"
+        Me.Button39.Size = New System.Drawing.Size(719, 23)
+        Me.Button39.TabIndex = 45
+        Me.Button39.Text = "Screen"
+        Me.Button39.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(992, 413)
+        Me.Controls.Add(Me.Button39)
+        Me.Controls.Add(Me.Button38)
+        Me.Controls.Add(Me.Button37)
         Me.Controls.Add(Me.Button36)
         Me.Controls.Add(Me.Button35)
         Me.Controls.Add(Me.Button34)
@@ -495,13 +519,13 @@ Partial Class Form1
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form1"
         Me.Text = "Sala"
         Me.ResumeLayout(False)
@@ -514,7 +538,6 @@ Partial Class Form1
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
@@ -551,5 +574,8 @@ Partial Class Form1
     Friend WithEvents Button34 As System.Windows.Forms.Button
     Friend WithEvents Button35 As System.Windows.Forms.Button
     Friend WithEvents Button36 As System.Windows.Forms.Button
+    Friend WithEvents Button37 As System.Windows.Forms.Button
+    Friend WithEvents Button38 As System.Windows.Forms.Button
+    Friend WithEvents Button39 As System.Windows.Forms.Button
 
 End Class
