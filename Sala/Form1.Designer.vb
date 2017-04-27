@@ -453,7 +453,7 @@ Partial Class Form1
         Me.Button37.Name = "Button37"
         Me.Button37.Size = New System.Drawing.Size(163, 33)
         Me.Button37.TabIndex = 43
-        Me.Button37.Text = "Back"
+        Me.Button37.Text = "Powrot"
         Me.Button37.UseVisualStyleBackColor = True
         '
         'Button38
